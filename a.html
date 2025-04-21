@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <p id="demo"></p>
+    <p id="dd"></p>
+    <p id="z"></p>
+    <script>
+        var a = "ZOHA"
+        var b = "flower"
+        var c = "I love coding"
+        document.getElementById("demo").innerHTML = a.toLowerCase()
+        document.getElementById("dd").innerHTML = b.toUpperCase()
+        document.getElementById("z").innerHTML = b.startsWith("f")
+        var patt = new RegExp("love")
+        var r = patt.test(c)
+        document.write(r)
+    </script>
+</body>
+
+</html>
